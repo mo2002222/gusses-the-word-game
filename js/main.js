@@ -100,7 +100,7 @@ checkButton.addEventListener("click",(e)=>{
     //change color of background bassed on letter
     if (arrayOfRows[0].classList.contains("active") && arrayOfRows.length <= 8 ) {
         for (let i = 0; i < 6; i++) {
-            let regex = new RegExp(arrayOfInputs[0][i].value);
+            let regex = new RegExp(arrayOfInputs[0][i].value.toLowerCase());
             if (arrayOfInputs[0][i].value =="") {
                 arrayOfInputs[0][i].style.background = "#0000006e";
             }
