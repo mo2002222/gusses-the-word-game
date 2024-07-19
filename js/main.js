@@ -101,7 +101,7 @@ checkButton.addEventListener("click",(e)=>{
     if (arrayOfRows[0].classList.contains("active") && arrayOfRows.length <= 8 ) {
         for (let i = 0; i < 6; i++) {
             let regex = new RegExp(arrayOfInputs[0][i].value.toLowerCase());
-            if (arrayOfInputs[0][i].value =="") {
+            if (arrayOfInputs[0][i].value.toLowerCase() =="") {
                 arrayOfInputs[0][i].style.background = "#0000006e";
             }
             if (arrayOfInputs[0][i].value.toLowerCase() !== word[i] && !regex.test(word)) {
