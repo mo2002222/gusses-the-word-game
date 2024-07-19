@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --gray-color:rgb(235 235 235);
+  --unactive-text:#abababe6;
+  --yellow-dark:rgb(255, 132, 0);
+  --green-dark:#26A69A;
+  --black-dark:#222;
+}
+
+.row input:focus {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-align: center;
+}
+.row .trys .active {
+  color: #222;
+}
+.row .col-1 {
+  margin-right: 10px;
+}
+
+.row-2 input {
+  background: #fff;
+}
+
+.row-3 input {
+  background: #fff;
+}
+
+.row-4 input {
+  background: #fff;
+}
+
+.row-5 input {
+  background: #fff;
+}
+
+.row-6 input {
+  background: #fff;
+}
+
+.row-7 input {
+  background: #fff;
+}
+
+.row-8 input {
+  background: #fff;
+}
+
+.right::before {
+  content: "";
+  left: 5px;
+  top: 7px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--yellow-dark);
+}
+
+.right-1::before {
+  content: "";
+  left: 5px;
+  top: 7px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--green-dark);
+}
+
+.right-2::before {
+  content: "";
+  left: 5px;
+  top: 7px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--black-dark);
+}/*# sourceMappingURL=style.css.map */
